@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.30 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="Glew2pb"/>
+    <comment>GLEW Library integration for PureBasic</comment>
+  </section>
+  <section name="data">
+    <explorer view="C:\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2014-10-21 16:59" user="Juan Camilo Prada" host="JUANK-DESKTOP"/>
+  </section>
+  <section name="files">
+    <file name="glew2pb.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="341d98ca779feee0115bb876d52ef1a4"/>
+    </file>
+    <file name="glew32s.lib">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="f0350b0047a3600158d274b591286e6a"/>
+    </file>
+    <file name="testing.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="c847e1a5a34db5f824a177e91c43c652"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="testing.pb"/>
+      <outputfile value=""/>
+      <compiler version="PureBasic 5.30 (Windows - x86)"/>
+      <options unicode="1" xpskin="1" debug="1"/>
+      <subsystem value="opengl"/>
+    </target>
+  </section>
+</project>
